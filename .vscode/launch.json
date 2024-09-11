@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar FastAPI com Uvicorn",
+            "type": "debugpy",  // Substituído "python" por "debugpy"
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "app.main:app",   // Arquivo que contém a app FastAPI e o nome da variável
+                "--reload"        // Modo de recarregamento automático para desenvolvimento
+            ],
+            "jinja": true,
+            "console": "integratedTerminal"
+        }
+    ]
+}
