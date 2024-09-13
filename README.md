@@ -2,6 +2,7 @@ AIChat
 AIChat é um projeto de chat simples que se comunica com um LLM (Large Language Model) via uma API FastAPI. 
 Ele irá ter embeddings que se baseiam em manuais onde o usuário pode gerar txt para alimentar o chat, ele deve responder somente aquilo que está programado, nunca fugindo para outros temas.
 
+
 Estrutura do Projeto
 bash
 Copiar código
@@ -33,6 +34,8 @@ project-root/
 ├── .env                             # Variáveis de ambiente
 ├── requirements.txt                 # Dependências do projeto
 └── README.md                        # Documentação do projeto
+
+
 Funcionalidades
 Back-end com FastAPI: Interface de comunicação com o LLMStudio, modularizado em controladores, serviços e modelos.
 Front-end em HTML/CSS/JavaScript: Interface de chat onde o usuário pode enviar mensagens e visualizar as respostas.
